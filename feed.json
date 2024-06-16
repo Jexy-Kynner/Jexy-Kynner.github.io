@@ -7,6 +7,18 @@
     "home_page_url": "http://Jexy-Kynner.github.io",
     "items": [
         {
+            "id": "http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/",
+            "url": "http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/",
+            "title": "格式化字符串",
+            "date_published": "2024-06-16T12:54:47.000Z",
+            "content_html": "<p>诶啊啊啊为什么 hexo 加载这么缓慢啊<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vaWNodW5xaXUvcC85MzI5Mzg3Lmh0bWw=\"></span><br />\n [参考博客]: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzeV9fX3lzeS9hcnRpY2xlL2RldGFpbHMvMTM1NzAwMTQw\">https://blog.csdn.net/ysy___ysy/article/details/135700140</span><br />\n [参考博客]: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0LzI0MDJfODM0MjIzNTcvYXJ0aWNsZS9kZXRhaWxzLzEzOTE4MDQwNA==\">https://blog.csdn.net/2402_83422357/article/details/139180404</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzk0NjEyL2FydGljbGUvZGV0YWlscy84NDkwMDY2OA==\"> 戳此切大佬博客</span></p>\n<p>如输出第五个参数可以写为 %4<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mtext>，第六个为</mtext></mrow><annotation encoding=\"application/x-tex\">s，第六个为%5</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.68333em;vertical-align:0em;\"></span><span class=\"mord mathnormal\">s</span><span class=\"mord cjk_fallback\">，</span><span class=\"mord cjk_fallback\">第</span><span class=\"mord cjk_fallback\">六</span><span class=\"mord cjk_fallback\">个</span><span class=\"mord cjk_fallback\">为</span></span></span></span>s，需要输出第 n 个参数就是 %(n-1)[格式化控制符]。因此我们的payload可以简化为”\\x01\\x80\\x04\\x08%5s”</p>\n<p>有一个还挺方便的函数 payload = fmtstr_payload (偏移，{原地址：目的地址})<br />\npayload = fmtstr_payload(11,{0x0804A048:0xC0})</p>\n",
+            "tags": [
+                "Pwn",
+                "stack",
+                "刷题"
+            ]
+        },
+        {
             "id": "http://jexy-kynner.github.io/2024/06/12/ret2libc%E9%A2%98/",
             "url": "http://jexy-kynner.github.io/2024/06/12/ret2libc%E9%A2%98/",
             "title": "ciscn_2019_c_1",
@@ -15,18 +27,6 @@
             "tags": [
                 "Pwn",
                 "stack"
-            ]
-        },
-        {
-            "id": "http://jexy-kynner.github.io/2024/06/07/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/",
-            "url": "http://jexy-kynner.github.io/2024/06/07/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/",
-            "title": "格式化字符串",
-            "date_published": "2024-06-06T16:54:47.000Z",
-            "content_html": "<p>诶<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vaWNodW5xaXUvcC85MzI5Mzg3Lmh0bWw=\"></span><br />\n [参考博客]: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzeV9fX3lzeS9hcnRpY2xlL2RldGFpbHMvMTM1NzAwMTQw\">https://blog.csdn.net/ysy___ysy/article/details/135700140</span><br />\n [参考博客]: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0LzI0MDJfODM0MjIzNTcvYXJ0aWNsZS9kZXRhaWxzLzEzOTE4MDQwNA==\">https://blog.csdn.net/2402_83422357/article/details/139180404</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzk0NjEyL2FydGljbGUvZGV0YWlscy84NDkwMDY2OA==\"> 戳此切大佬博客</span></p>\n<p>如输出第五个参数可以写为 %4<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mtext>，第六个为</mtext></mrow><annotation encoding=\"application/x-tex\">s，第六个为%5</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.68333em;vertical-align:0em;\"></span><span class=\"mord mathnormal\">s</span><span class=\"mord cjk_fallback\">，</span><span class=\"mord cjk_fallback\">第</span><span class=\"mord cjk_fallback\">六</span><span class=\"mord cjk_fallback\">个</span><span class=\"mord cjk_fallback\">为</span></span></span></span>s，需要输出第 n 个参数就是 %(n-1)[格式化控制符]。因此我们的payload可以简化为”\\x01\\x80\\x04\\x08%5s”</p>\n<p>有一个还挺方便的函数 payload = fmtstr_payload (偏移，{原地址：目的地址})<br />\npayload = fmtstr_payload(11,{0x0804A048:0xC0})</p>\n",
-            "tags": [
-                "Pwn",
-                "stack",
-                "刷题"
             ]
         },
         {
