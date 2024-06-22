@@ -241,7 +241,7 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
             <guid isPermalink="true">http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/</guid>
             <title>楔子</title>
             <link>http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/</link>
-            <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
+            <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
             <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
             <pubDate>Fri, 10 May 2024 00:39:16 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;测试markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试markdown&#34;&gt;#&lt;/a&gt; 测试 markdown&lt;/h1&gt;
@@ -334,11 +334,13 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
 &lt;span class=&#34;kbd red&#34;&gt; 12333&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;kbd green&#34;&gt;45678&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;rainbow&#34;&gt;1234567&lt;/span&gt;&lt;br /&gt;
+ 快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;br /&gt;
+== 荧光高亮 ==&lt;br /&gt;
 2&lt;sup&gt;3 次方&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;隐藏文字&lt;br /&gt;
-&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt; 鼠标滑过显示内容&lt;br /&gt;
+&lt;h3 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt; 鼠标滑过显示内容&lt;br /&gt;
 &lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;模糊模糊模糊模糊模糊模糊&lt;/span&gt;  选中文字显示内容&lt;/p&gt;
-&lt;p&gt;折叠文字&lt;/p&gt;
+&lt;h3 id=&#34;折叠文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折叠文字&#34;&gt;#&lt;/a&gt; 折叠文字&lt;/h3&gt;
 &lt;details class=&#34;success&#34;&gt;&lt;summary&gt;段落是绿色的&lt;/summary&gt;&lt;div&gt;
 &lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片1&#34;&gt;
 &lt;p&gt;冰淇淋&lt;/p&gt;
@@ -355,18 +357,29 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
 &lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
-&lt;p&gt;表情&lt;br /&gt;
+&lt;h3 id=&#34;表情&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表情&#34;&gt;#&lt;/a&gt; 表情&lt;/h3&gt;
+&lt;p&gt;🎶&lt;br /&gt;
+😅&lt;br /&gt;
+😘&lt;br /&gt;
+💍&lt;br /&gt;
 🎶&lt;/p&gt;
+&lt;h3 id=&#34;待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#待办事项&#34;&gt;#&lt;/a&gt; 待办事项&lt;/h3&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 这是一个小叉叉&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 这是一个红色勾勾&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;提醒块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提醒块&#34;&gt;#&lt;/a&gt; 提醒块&lt;/h3&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;基本&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;警告&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class=&#34;note success no-icon&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;标签块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签块&#34;&gt;#&lt;/a&gt; 标签块&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
