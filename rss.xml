@@ -335,8 +335,8 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
 &lt;span class=&#34;kbd green&#34;&gt;45678&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;rainbow&#34;&gt;1234567&lt;/span&gt;&lt;br /&gt;
  快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;br /&gt;
-== 荧光高亮 ==&lt;br /&gt;
-2&lt;sup&gt;3 次方&lt;/sup&gt;&lt;/p&gt;
+&lt;mark&gt; 荧光高亮&lt;/mark&gt;&lt;br /&gt;
+ 2&lt;sup&gt;3 次方&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt; 鼠标滑过显示内容&lt;br /&gt;
 &lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;模糊模糊模糊模糊模糊模糊&lt;/span&gt;  选中文字显示内容&lt;/p&gt;
