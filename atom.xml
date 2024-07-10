@@ -31,7 +31,7 @@
 read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描述符，表示读文件，0x100 表示我们读多少&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
  write (1,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 1 是 fd 描述符，表示把它写在屏幕上，0x100 表示我们显示多少在屏幕上&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
 手搓的话，应该就是顺着函数调用时寄存器和参数顺序把 open,read,write 用到的系统调用号，描述符，open 就是把 flag 压进去，read,write 都要描述符，和我们想要读写的内存。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;kbd.red&#34;&gt;&lt;strong&gt;函数被禁止了&lt;/strong&gt;&lt;/span&gt;那就找替代品，&lt;span class=&#34;kbd.red&#34;&gt;还是手搓 55&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;函数被禁止了&lt;/strong&gt;&lt;/span&gt;那就找替代品，&lt;span class=&#34;kbd red&#34;&gt;还是手搓 55&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;替代品找不着请听下回分解&lt;br /&gt;
 ::&lt;/p&gt;
