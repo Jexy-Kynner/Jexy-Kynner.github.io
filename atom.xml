@@ -22,7 +22,8 @@
 &lt;img data-src=&#34;https://s2.loli.net/2024/07/10/VFZQxkTHi9PnMGU.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 看每一条 if () 语句对应的 goto 哪一行，对应着 kill, 还是，allow&lt;/p&gt;
 &lt;h2 id=&#34;整体思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#整体思路&#34;&gt;#&lt;/a&gt; 整体思路&lt;/h2&gt;
-&lt;p&gt;用 seccomp-tools dump 看哪些函数能用，open&lt;span class=&#34;kbd red&#34;&gt;openat 代替&lt;/span&gt;，read&lt;span class=&#34;kbd red&#34;&gt;readv 代替&lt;/span&gt;，write&lt;span class=&#34;kbd red&#34;&gt;writev 代替&lt;/span&gt;，execve&lt;span class=&#34;kbd red&#34;&gt;execveat 代替&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;用 seccomp-tools dump 看哪些函数能用&lt;br /&gt;
+ open&lt;span class=&#34;kbd red&#34;&gt;openat 代替&lt;/span&gt;，read&lt;span class=&#34;kbd red&#34;&gt;readv 代替&lt;/span&gt;，write&lt;span class=&#34;kbd red&#34;&gt;writev 代替&lt;/span&gt;，execve&lt;span class=&#34;kbd red&#34;&gt;execveat 代替&lt;/span&gt;&lt;br /&gt;
 我们就用 open 打开 flag 文件，read 读取 flag,write 把 flag 写到屏幕上&lt;br /&gt;
 这个过程我发现尽头还是手搓汇编（）&lt;br /&gt;
 用汇编代码写 open,read,write 的函数&lt;br /&gt;
@@ -30,7 +31,7 @@
 read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描述符，表示读文件，0x100 表示我们读多少&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
  write (1,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 1 是 fd 描述符，表示把它写在屏幕上，0x100 表示我们显示多少在屏幕上&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
 手搓的话，应该就是顺着函数调用时寄存器和参数顺序把 open,read,write 用到的系统调用号，描述符，open 就是把 flag 压进去，read,write 都要描述符，和我们想要读写的内存。&lt;/p&gt;
-&lt;p class=&#34;kbd.red&#34;&gt;[&lt;strong&gt;函数被禁止了&lt;/strong&gt;].{.kbd.red} 那就找替代品，[还是手搓 55].&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;kbd.red&#34;&gt;&lt;strong&gt;函数被禁止了&lt;/strong&gt;&lt;/span&gt;那就找替代品，&lt;span class=&#34;kbd.red&#34;&gt;还是手搓 55&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;替代品找不着请听下回分解&lt;br /&gt;
 ::&lt;/p&gt;
