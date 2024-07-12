@@ -20,18 +20,13 @@
             <pubDate>Fri, 12 Jul 2024 10:27:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思路&#34;&gt;#&lt;/a&gt; 思路&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;validate 函数是用于验证给定的汇编指令是否为 jmp 指令的函数。具体实现如下：&lt;/p&gt;
+&lt;p&gt;validate 函数是用于验证给定的汇编指令是否为 jmp 指令的函数。具体实现如下：&lt;br /&gt;
+首先，调用 cs_open 函数打开一个 capstone 分析器，指定分析器运行在 64 位模式，并指定分析器运行在 CS_MODE_64 模式。&lt;br /&gt;
+使用 cs_disasm 函数解析传入的汇编指令，并将解析得到的 insn 数组存储在 cs_insn 结构体中。&lt;br /&gt;
+遍历解析得到的 insn 数组，检查每个指令的 mnemonic 字段是否为 jmp。如果为 jmp，则将 ret 变量设置为 0，表示指令验证失败。&lt;br /&gt;
+遍历完成后，使用 cs_free 函数释放解析得到的 insn 数组。&lt;br /&gt;
+最后，如果 ret 变量为 0，则表示指令验证失败，返回 1；否则，返回 0，表示指令验证成功。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;首先，调用cs_open函数打开一个capstone分析器，指定分析器运行在64位模式，并指定分析器运行在CS_MODE_64模式。
-
-使用cs_disasm函数解析传入的汇编指令，并将解析得到的insn数组存储在cs_insn结构体中。
-
-遍历解析得到的insn数组，检查每个指令的mnemonic字段是否为jmp。如果为jmp，则将ret变量设置为0，表示指令验证失败。
-
-遍历完成后，使用cs_free函数释放解析得到的insn数组。
-
-最后，如果ret变量为0，则表示指令验证失败，返回1；否则，返回0，表示指令验证成功。
-&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>
