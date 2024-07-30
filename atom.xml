@@ -14,13 +14,14 @@
         <title>堆</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/"/>
         <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzMyMDEwL2FydGljbGUvZGV0YWlscy8xMjA0MDIxMDI=&#34;&gt;https://blog.csdn.net/qq_43332010/article/details/120402102&lt;/span&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://arttnba3.cn/2021/01/15/GLIBC-0X00-MALLOC-2.23-PART-I/#0x00-%E5%A0%86%E5%86%85%E5%AD%98%E7%9A%84%E7%BB%84%E7%BB%87%E5%BD%A2%E5%BC%8F&#34; alt=&#34;相关定义&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://archive.next.arttnba3.cn/2021/02/24/%E3%80%90CTF%E8%B5%84%E6%96%99-0x0002%E3%80%91%E7%AE%80%E6%98%93Linux%E5%A0%86%E5%88%A9%E7%94%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8Bby%20arttnba3/&#34; alt=&#34;攻击原理及方法&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://blog.csdn.net/xy_369/article/details/130718514&#34; alt=&#34;gdb调试理解&#34; /&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcnR0bmJhMy5jbi8yMDIxLzAxLzE1L0dMSUJDLTBYMDAtTUFMTE9DLTIuMjMtUEFSVC1JLyMweDAwLSVFNSVBMCU4NiVFNSU4NiU4NSVFNSVBRCU5OCVFNyU5QSU4NCVFNyVCQiU4NCVFNyVCQiU4NyVFNSVCRCVBMiVFNSVCQyU4Rg==&#34;&gt; 相关定义&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcmNoaXZlLm5leHQuYXJ0dG5iYTMuY24vMjAyMS8wMi8yNC8lRTMlODAlOTBDVEYlRTglQjUlODQlRTYlOTYlOTktMHgwMDAyJUUzJTgwJTkxJUU3JUFFJTgwJUU2JTk4JTkzTGludXglRTUlQTAlODYlRTUlODglQTklRTclOTQlQTglRTUlODUlQTUlRTklOTclQTglRTYlOTUlOTklRTclQTglOEJieSUyMGFydHRuYmEzLw==&#34;&gt;攻击原理及方法&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzE4NTE0&#34;&gt; gdb 调试理解&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzg4MDkz&#34;&gt; https://blog.csdn.net/xy_369/article/details/130788093&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibGluZ2JsaW5neHVhbnh1YW4uZ2l0aHViLmlvLzIwMjAvMDIvMjMvcGFwZXIvI2Zhc3RiaW4tYXR0YWNr&#34;&gt;https://blingblingxuanxuan.github.io/2020/02/23/paper/#fastbin-attack&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly95d2hra3guZ2l0aHViLmlvLzIwMjEvMTIvMTIvJUU1JUEwJTg2JUU2JUJBJUEyJUU1JTg3JUJBK21hbGxvY19ob29rJUU1JThBJUFCJUU2JThDJTgxLw==&#34;&gt;https://ywhkkx.github.io/2021/12/12 / 堆溢出 + malloc_hook 劫持 /&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;in_arena-0x10 处是 malloc_hook，接收 main_arena 后就可以泄露出 malloc_hook 和 libc_base，就可以劫持 malloc_hook 了，接下来使 malloc_hook 成为 fake_chunk 后往里填 one_gadget 即可&lt;/p&gt;
+&lt;h1 id=&#34;前置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置&#34;&gt;#&lt;/a&gt; 前置&lt;/h1&gt;
+&lt;p&gt;main_arena-0x10 处是 malloc_hook，接收 main_arena 后就可以泄露出 malloc_hook 和 libc_base，就可以劫持 malloc_hook 了，接下来使 malloc_hook 成为 fake_chunk 后往里填 one_gadget 即可&lt;/p&gt;
 </content>
         <updated>2024-07-22T14:07:14.000Z</updated>
     </entry>
