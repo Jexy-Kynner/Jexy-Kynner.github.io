@@ -253,7 +253,7 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
         </item>
         <item>
             <guid isPermalink="true">http://jexy-kynner.github.io/2024/06/01/BUU%E5%88%B7%E9%A2%98(1)/</guid>
-            <title>BUU刷题(1)</title>
+            <title>BUU——ciscn_2019_n_1 &amp;&amp; jarvisoj_level0</title>
             <link>http://jexy-kynner.github.io/2024/06/01/BUU%E5%88%B7%E9%A2%98(1)/</link>
             <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
             <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />
@@ -363,7 +363,7 @@ p.send(payload)&lt;br /&gt;
         </item>
         <item>
             <guid isPermalink="true">http://jexy-kynner.github.io/2024/05/11/%E5%89%8D%E7%BD%AE/</guid>
-            <title>前置</title>
+            <title>pwn前置知识</title>
             <link>http://jexy-kynner.github.io/2024/05/11/%E5%89%8D%E7%BD%AE/</link>
             <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
             <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />
