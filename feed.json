@@ -7,11 +7,11 @@
     "home_page_url": "http://Jexy-Kynner.github.io",
     "items": [
         {
-            "id": "http://jexy-kynner.github.io/2024/07/30/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/",
-            "url": "http://jexy-kynner.github.io/2024/07/30/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/",
-            "title": "summer_机器码",
-            "date_published": "2024-07-30T08:15:24.000Z",
-            "content_html": "",
+            "id": "http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/",
+            "url": "http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/",
+            "title": "堆",
+            "date_published": "2024-07-22T14:07:14.000Z",
+            "content_html": "<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzMyMDEwL2FydGljbGUvZGV0YWlscy8xMjA0MDIxMDI=\">https://blog.csdn.net/qq_43332010/article/details/120402102</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9hcnR0bmJhMy5jbi8yMDIxLzAxLzE1L0dMSUJDLTBYMDAtTUFMTE9DLTIuMjMtUEFSVC1JLyMweDAwLSVFNSVBMCU4NiVFNSU4NiU4NSVFNSVBRCU5OCVFNyU5QSU4NCVFNyVCQiU4NCVFNyVCQiU4NyVFNSVCRCVBMiVFNSVCQyU4Rg==\"> 相关定义</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9hcmNoaXZlLm5leHQuYXJ0dG5iYTMuY24vMjAyMS8wMi8yNC8lRTMlODAlOTBDVEYlRTglQjUlODQlRTYlOTYlOTktMHgwMDAyJUUzJTgwJTkxJUU3JUFFJTgwJUU2JTk4JTkzTGludXglRTUlQTAlODYlRTUlODglQTklRTclOTQlQTglRTUlODUlQTUlRTklOTclQTglRTYlOTUlOTklRTclQTglOEJieSUyMGFydHRuYmEzLw==\">攻击原理及方法</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzE4NTE0\"> gdb 调试理解</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzg4MDkz\"> https://blog.csdn.net/xy_369/article/details/130788093</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibGluZ2JsaW5neHVhbnh1YW4uZ2l0aHViLmlvLzIwMjAvMDIvMjMvcGFwZXIvI2Zhc3RiaW4tYXR0YWNr\">https://blingblingxuanxuan.github.io/2020/02/23/paper/#fastbin-attack</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly95d2hra3guZ2l0aHViLmlvLzIwMjEvMTIvMTIvJUU1JUEwJTg2JUU2JUJBJUEyJUU1JTg3JUJBK21hbGxvY19ob29rJUU1JThBJUFCJUU2JThDJTgxLw==\">https://ywhkkx.github.io/2021/12/12 / 堆溢出 + malloc_hook 劫持 /</span></p>\n<h1 id=\"前置\"><a class=\"anchor\" href=\"#前置\">#</a> 前置</h1>\n<p>main_arena-0x10 处是 malloc_hook，接收 main_arena 后就可以泄露出 malloc_hook 和 libc_base，就可以劫持 malloc_hook 了，接下来使 malloc_hook 成为 fake_chunk 后往里填 one_gadget 即可</p>\n",
             "tags": [
                 "Pwn",
                 "stack",
@@ -19,11 +19,11 @@
             ]
         },
         {
-            "id": "http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/",
-            "url": "http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/",
-            "title": "堆",
-            "date_published": "2024-07-22T14:07:14.000Z",
-            "content_html": "<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzMyMDEwL2FydGljbGUvZGV0YWlscy8xMjA0MDIxMDI=\">https://blog.csdn.net/qq_43332010/article/details/120402102</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9hcnR0bmJhMy5jbi8yMDIxLzAxLzE1L0dMSUJDLTBYMDAtTUFMTE9DLTIuMjMtUEFSVC1JLyMweDAwLSVFNSVBMCU4NiVFNSU4NiU4NSVFNSVBRCU5OCVFNyU5QSU4NCVFNyVCQiU4NCVFNyVCQiU4NyVFNSVCRCVBMiVFNSVCQyU4Rg==\"> 相关定义</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9hcmNoaXZlLm5leHQuYXJ0dG5iYTMuY24vMjAyMS8wMi8yNC8lRTMlODAlOTBDVEYlRTglQjUlODQlRTYlOTYlOTktMHgwMDAyJUUzJTgwJTkxJUU3JUFFJTgwJUU2JTk4JTkzTGludXglRTUlQTAlODYlRTUlODglQTklRTclOTQlQTglRTUlODUlQTUlRTklOTclQTglRTYlOTUlOTklRTclQTglOEJieSUyMGFydHRuYmEzLw==\">攻击原理及方法</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzE4NTE0\"> gdb 调试理解</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h5XzM2OS9hcnRpY2xlL2RldGFpbHMvMTMwNzg4MDkz\"> https://blog.csdn.net/xy_369/article/details/130788093</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibGluZ2JsaW5neHVhbnh1YW4uZ2l0aHViLmlvLzIwMjAvMDIvMjMvcGFwZXIvI2Zhc3RiaW4tYXR0YWNr\">https://blingblingxuanxuan.github.io/2020/02/23/paper/#fastbin-attack</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly95d2hra3guZ2l0aHViLmlvLzIwMjEvMTIvMTIvJUU1JUEwJTg2JUU2JUJBJUEyJUU1JTg3JUJBK21hbGxvY19ob29rJUU1JThBJUFCJUU2JThDJTgxLw==\">https://ywhkkx.github.io/2021/12/12 / 堆溢出 + malloc_hook 劫持 /</span></p>\n<h1 id=\"前置\"><a class=\"anchor\" href=\"#前置\">#</a> 前置</h1>\n<p>main_arena-0x10 处是 malloc_hook，接收 main_arena 后就可以泄露出 malloc_hook 和 libc_base，就可以劫持 malloc_hook 了，接下来使 malloc_hook 成为 fake_chunk 后往里填 one_gadget 即可</p>\n",
+            "id": "http://jexy-kynner.github.io/2024/07/19/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/",
+            "url": "http://jexy-kynner.github.io/2024/07/19/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/",
+            "title": "summer_机器码",
+            "date_published": "2024-07-19T08:15:24.000Z",
+            "content_html": "",
             "tags": [
                 "Pwn",
                 "stack",
