@@ -42,9 +42,9 @@
         <updated>2024-07-22T14:07:14.000Z</updated>
     </entry>
     <entry>
-        <id>http://jexy-kynner.github.io/2024/07/19/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/</id>
+        <id>http://jexy-kynner.github.io/2024/07/19/%E6%9C%BA%E5%99%A8%E7%A0%81/</id>
         <title>summer_机器码</title>
-        <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/19/summer_%E6%9C%BA%E5%99%A8%E7%A0%81/"/>
+        <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/19/%E6%9C%BA%E5%99%A8%E7%A0%81/"/>
         <content type="html">&lt;h1 id=&#34;shellcode5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shellcode5&#34;&gt;#&lt;/a&gt; shellcode5&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;#include &amp;lt;string.h&amp;gt;&lt;br /&gt;
@@ -100,9 +100,9 @@ return 0;&lt;br /&gt;
         <updated>2024-07-19T08:15:24.000Z</updated>
     </entry>
     <entry>
-        <id>http://jexy-kynner.github.io/2024/07/08/summer_orw/</id>
-        <title>summer_orw</title>
-        <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/08/summer_orw/"/>
+        <id>http://jexy-kynner.github.io/2024/07/08/orw/</id>
+        <title>summer2024_orw</title>
+        <link rel="alternate" href="http://jexy-kynner.github.io/2024/07/08/orw/"/>
         <content type="html">&lt;p&gt;妈呀普天同庆，终于过了啊啊啊啊啊【尖叫】【阴暗爬行】&lt;/p&gt;
 &lt;h1 id=&#34;orw原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#orw原理&#34;&gt;#&lt;/a&gt; orw 原理&lt;/h1&gt;
 &lt;p&gt;就是有两个函数可以控制函数禁用 prtcl () 和 seccomp ()&lt;/p&gt;
@@ -180,7 +180,7 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
     </entry>
     <entry>
         <id>http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/</id>
-        <title>格式化字符串(summer_fmt)</title>
+        <title>格式化字符串(summer2024_fmt)</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/06/16/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
         <content type="html">&lt;h1 id=&#34;参考博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考博客&#34;&gt;#&lt;/a&gt; 参考博客&lt;/h1&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vaWNodW5xaXUvcC85MzI5Mzg3Lmh0bWw=&#34;&gt;&lt;/span&gt;&lt;br /&gt;
