@@ -264,7 +264,7 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
         </item>
         <item>
             <guid isPermalink="true">http://jexy-kynner.github.io/2024/05/22/ROP/</guid>
-            <title>栈ROP</title>
+            <title>CTF_pwn_栈ROP</title>
             <link>http://jexy-kynner.github.io/2024/05/22/ROP/</link>
             <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
             <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />

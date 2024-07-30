@@ -261,7 +261,7 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
     </entry>
     <entry>
         <id>http://jexy-kynner.github.io/2024/05/22/ROP/</id>
-        <title>栈ROP</title>
+        <title>CTF_pwn_栈ROP</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/05/22/ROP/"/>
         <content type="html">&lt;h1 id=&#34;栈溢出原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#栈溢出原理&#34;&gt;#&lt;/a&gt; 栈溢出原理&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/02/HW7zjmqDtJYn5G3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
