@@ -8,17 +8,7 @@
     <author>
       <name>Jexy-Kynner</name>
     </author>
-    <updated>2025-04-15T15:25:50.773Z</updated>
-    <entry>
-        <id>http://jexy-kynner.github.io/2025/04/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</id>
-        <title></title>
-        <link rel="alternate" href="http://jexy-kynner.github.io/2025/04/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-        <content type="html">&lt;h1 id=&#34;哭哭&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哭哭&#34;&gt;#&lt;/a&gt; 哭哭&lt;/h1&gt;
-&lt;p class=&#34;kbd.red&#34;&gt;&lt;strong&gt;怎么办啊&lt;/strong&gt;&lt;br /&gt;
-最近真的。第二学期你应该好好学习的啊，至少绩点要到 4.0 啊啊啊啊&lt;/p&gt;
-</content>
-        <updated>2025-04-15T15:25:50.773Z</updated>
-    </entry>
+    <updated>2024-07-22T14:07:14.000Z</updated>
     <entry>
         <id>http://jexy-kynner.github.io/2024/07/22/%E5%A0%86/</id>
         <title>CTF_PWN_堆</title>
@@ -568,6 +558,158 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
 &lt;/div&gt;
 &lt;h3 id=&#34;标签块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签块&#34;&gt;#&lt;/a&gt; 标签块&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
+        <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
+        <updated>2024-05-09T16:39:16.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://jexy-kynner.github.io/2024/05/10/html%E5%AD%A6%E4%B9%A0/</id>
+        <title>楔子</title>
+        <link rel="alternate" href="http://jexy-kynner.github.io/2024/05/10/html%E5%AD%A6%E4%B9%A0/"/>
+        <content type="html">&lt;p&gt;bash ```&lt;br /&gt;
+&amp;lt;!DOCTYPE html&amp;gt;&lt;br /&gt;
+&amp;lt;html&amp;gt;&lt;br /&gt;
+&amp;lt;head&amp;gt;&lt;br /&gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;title&amp;gt; 菜鸟教程 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3J1bm9vYi5jb20=&#34;&gt;runoob.com&lt;/span&gt;)&amp;lt;/title&amp;gt;&lt;br /&gt;
+&amp;lt;/head&amp;gt;&lt;br /&gt;
+&amp;lt;body&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbQ==&#34;&gt;https://www.runoob.com&lt;/span&gt;&amp;quot;&amp;gt; 这是一个链接使用了 href 属性 &amp;lt;/a&amp;gt;&lt;br /&gt;
+&amp;lt;img src=&amp;quot;/images/logo.png&amp;quot; width=&amp;quot;258&amp;quot; height=&amp;quot;39&amp;quot; /&amp;gt;&lt;br /&gt;
+&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;/html&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;p&amp;gt;	这是一个段落	&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;a href=&amp;quot;default.htm&amp;quot;&amp;gt;	这是一个链接	&amp;lt;/a&amp;gt;&lt;br /&gt;
+&amp;lt;br&amp;gt;	换行&lt;br /&gt;
+ &amp;lt;hr&amp;gt; 标签在 HTML 页面中创建水平线。&lt;/p&gt;
+&lt;p&gt;&amp;lt;!-- 这是一个注释 --&amp;gt; 以下是一个简单的 HTML 表格实例:&lt;br /&gt;
+ 实例&lt;br /&gt;
+ &amp;lt;table&amp;gt;&lt;br /&gt;
+&amp;lt;thead&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;&lt;br /&gt;
+&amp;lt;th&amp;gt; 列标题 1&amp;lt;/th&amp;gt;&lt;br /&gt;
+&amp;lt;th&amp;gt; 列标题 2&amp;lt;/th&amp;gt;&lt;br /&gt;
+&amp;lt;th&amp;gt; 列标题 3&amp;lt;/th&amp;gt;&lt;br /&gt;
+&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;/thead&amp;gt;&lt;br /&gt;
+&amp;lt;tbody&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 1，列 1&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 1，列 2&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 1，列 3&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 2，列 1&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 2，列 2&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt; 行 2，列 3&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;/tbody&amp;gt;&lt;br /&gt;
+&amp;lt;/table&amp;gt;&lt;br /&gt;
+ 以上的表格实例代码中，&amp;lt;table&amp;gt; 元素表示整个表格，它包含两个主要部分：&amp;lt;thead&amp;gt; 和 &amp;lt;tbody&amp;gt;。&lt;/p&gt;
+&lt;p&gt;&amp;lt;thead&amp;gt; 用于定义表格的标题部分：在 &amp;lt;thead &amp;gt; 中，使用 &amp;lt;th &amp;gt; 元素定义&lt;/p&gt;
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;br /&gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;head&amp;gt;&lt;br /&gt;
+&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;title&amp;gt;dfdd&amp;lt;/title&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/head&amp;gt;&lt;br /&gt;
+&amp;lt;body&amp;gt;&lt;br /&gt;
+&amp;lt;h1&amp;gt; 葛秀京 &amp;lt;/h1&amp;gt;&lt;br /&gt;
+&amp;lt;a href=&amp;quot;/get/news&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29tL2ltZy9mbGV4aWJsZS9sb2dvL3BjL3Jlc3VsdC5wbmc=&#34;&gt;https://www.baidu.com/img/flexible/logo/pc/result.png&lt;/span&gt;&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;/a&amp;gt;&lt;br /&gt;
+&amp;lt;/body&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;body&amp;gt;&lt;br /&gt;
+&amp;lt;ul&amp;gt;&lt;br /&gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/get/news&amp;quot;&amp;gt; 新闻 &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;br /&gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/get/baike&amp;quot;&amp;gt; 百科 &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;br /&gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/get/zhidao&amp;quot;&amp;gt; 知道 &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;br /&gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/get/tieba&amp;quot;&amp;gt; 贴吧 &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;br /&gt;
+&amp;lt;/ul&amp;gt;&lt;br /&gt;
+&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;table&amp;gt;&lt;br /&gt;
+&amp;lt;thead&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;ID&amp;lt;/th&amp;gt; &amp;lt;th &amp;gt; 姓名 &amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;/thead&amp;gt;&lt;br /&gt;
+&amp;lt;tbody&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;    &amp;lt;td&amp;gt;10&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;19&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;    &amp;lt;td&amp;gt;20&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;20&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;    &amp;lt;td&amp;gt;30&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;21&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;/table&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;body&amp;gt;&lt;br /&gt;
+&amp;lt;h1&amp;gt;  输入 &amp;lt;/h1&amp;gt;&lt;br /&gt;
+&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;name&amp;quot; id=&amp;quot;name&amp;quot; placeholder=&amp;quot;请输入姓名&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;input type=&amp;quot;file&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;n1&amp;quot;&amp;gt; 男&lt;br /&gt;
+ &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;n1&amp;quot;&amp;gt; 女&lt;br /&gt;
+ &amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;n2&amp;quot;&amp;gt; 同意&lt;br /&gt;
+ &amp;lt;input type=&amp;quot;button&amp;quot; value=&amp;quot;提交&amp;quot; onclick=&amp;quot;alert (&#39; 提交成功 &#39;)&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;提交&amp;quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;h1&amp;gt;  下拉框 &amp;lt;/h1&amp;gt;&lt;br /&gt;
+&amp;lt;select name=&amp;quot;select&amp;quot; id=&amp;quot;select&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;option value=&amp;quot;1&amp;quot;&amp;gt; 选项 1&amp;lt;/option&amp;gt;&lt;br /&gt;
+&amp;lt;option value=&amp;quot;2&amp;quot;&amp;gt; 选项 2&amp;lt;/option&amp;gt;&lt;br /&gt;
+&amp;lt;option value=&amp;quot;3&amp;quot;&amp;gt; 选项 3&amp;lt;/option&amp;gt;&lt;br /&gt;
+&amp;lt;/select&amp;gt;&lt;br /&gt;
+&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;h1&amp;gt; 注册 &amp;lt;/h1&amp;gt;&lt;br /&gt;
+&amp;lt;body&amp;gt;&lt;br /&gt;
+&amp;lt;form method=&amp;quot;get&amp;quot; action=&amp;quot;/get/news&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;label for=&amp;quot;user&amp;quot;&amp;gt; 用户名:&amp;lt;/label&amp;gt;&lt;br /&gt;
+&amp;lt;input type=&amp;quot;text&amp;quot; id=&amp;quot;username&amp;quot; name=&amp;quot;username&amp;quot; required&amp;gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;label for=&amp;quot;password&amp;quot;&amp;gt;密码:&amp;lt;/label&amp;gt;
+    &amp;lt;input type=&amp;quot;password&amp;quot; id=&amp;quot;password&amp;quot; name=&amp;quot;password&amp;quot; required&amp;gt;
+    
+    &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;注册&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;/html&amp;gt;&lt;/p&gt;
+&lt;p&gt;bash ```&lt;/p&gt;
+&lt;p&gt;bash 动画效果&lt;br /&gt;
+ &amp;lt;!DOCTYPE html&amp;gt;&lt;br /&gt;
+&amp;lt;head&amp;gt; 标题&lt;br /&gt;
+ &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/div.css&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;/head&amp;gt;&lt;br /&gt;
+&amp;lt;body&amp;gt; 主体&lt;br /&gt;
+ &amp;lt;div class=&amp;quot;box1&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/body&amp;gt;&lt;br /&gt;
+&amp;lt;/html&amp;gt;&lt;br /&gt;
+&amp;lt;style&amp;gt;&lt;br /&gt;
+div{&lt;br /&gt;
+width: 200px;&lt;br /&gt;
+height: 200px;&lt;br /&gt;
+border: 5px solid black;&lt;br /&gt;
+background-color: red;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    animation: dh 3s linear infinite;
+&amp;#125;
+div:hover&amp;#123;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-play-state: paused;
+&amp;#125;
+@keyframes dh&amp;#123;/*动画*/
+    0% &amp;#123;
+        opacity: 1;/*透明度*/
+        background-color: red;
+        width: 300px;
+        transform: rotate(0deg);
+    &amp;#125;
+    50% &amp;#123;
+        opacity: 0.3;
+        width: 100px;
+        background-color: yellow;
+        transform: rotate(180deg);
+    &amp;#125;
+    100% &amp;#123;
+        opacity: 0.7;
+        width:200px;
+        background-color: red;
+        transform: rotate(360deg);
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;/style&amp;gt;&lt;/p&gt;
 </content>
         <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
         <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
