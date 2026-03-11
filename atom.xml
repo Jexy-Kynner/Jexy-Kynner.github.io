@@ -244,8 +244,8 @@ read(3,buf,0x100)&lt;span class=&#34;kbd red&#34;&gt;&lt;strong&gt; 3 是 fd 描
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/16/lCctMBg6KFkOTUi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="Pwn" scheme="http://jexy-kynner.github.io/categories/Pwn/" />
-        <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />
         <category term="BUU" scheme="http://jexy-kynner.github.io/tags/BUU/" />
+        <category term="stack" scheme="http://jexy-kynner.github.io/tags/stack/" />
         <updated>2024-06-11T16:35:15.000Z</updated>
     </entry>
     <entry>
@@ -420,150 +420,6 @@ p64、p32—— 根据设置的 context 选择小端法或大端法对数字进�
         <updated>2024-05-10T17:40:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/</id>
-        <title>楔子</title>
-        <link rel="alternate" href="http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/"/>
-        <content type="html">&lt;h1 id=&#34;测试markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试markdown&#34;&gt;#&lt;/a&gt; 测试 markdown&lt;/h1&gt;
-&lt;h2 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h2&gt;
-&lt;p&gt;历时 2 天终于！！！搭建好博客，把主题美化好。&lt;br /&gt;
-最后我竟然挑了很多二次元背景图（）&lt;br /&gt;
-&lt;s&gt;哦，界面的音乐还是别人的，等有时间再慢慢调吧&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;之前用的是酷狗，but 博主用的是网易云 555&lt;br /&gt;
- 好在一番操作音乐导入成功！&lt;br /&gt;
-&lt;s&gt;注：搜索功能还没配太好，可以点击 but 搜不到&lt;/s&gt;&lt;br /&gt;
-&lt;s&gt;我也不知道是什么原因，不想调了，估计也没什么人搜索 ()&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;耶耶耶！！搜索功能它好啦！！&lt;br /&gt;
-搭建过程不少辛酸事（U ´ᴥ` U）&lt;br /&gt;
-总在快成功的时候删除所有文件从头开始...&lt;br /&gt;
- 一想到以后每周都要写 blog.&lt;br /&gt;
- 还不太熟练 markdown，过来练练。&lt;/p&gt;
-&lt;h1 id=&#34;一级标题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一级标题&#34;&gt;#&lt;/a&gt; 一级标题&lt;/h1&gt;
-&lt;h2 id=&#34;二级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二级&#34;&gt;#&lt;/a&gt; 二级&lt;/h2&gt;
-&lt;h3 id=&#34;三级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三级&#34;&gt;#&lt;/a&gt; 三级&lt;/h3&gt;
-&lt;p&gt;哦，天哪，# 后和 - * + 要空格！！&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;斜体&lt;/em&gt;&lt;br /&gt;
-&lt;strong&gt;粗&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;&lt;strong&gt;粗斜&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
-&lt;s&gt;删除线&lt;/s&gt;&lt;/p&gt;
-&lt;h4 id=&#34;链接测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接测试&#34;&gt;#&lt;/a&gt; 链接测试&lt;/h4&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vSmV4eQ==&#34;&gt;我的博客园&lt;/span&gt;&lt;br /&gt;
- [博客][1][2]&lt;br /&gt;
-[1]:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vSmV4eQ==&#34;&gt;https://www.cnblogs.com/Jexy&lt;/span&gt;&lt;br /&gt;
-[2]:&lt;a href=&#34;https://jexy-kynner.github.io/&#34;&gt;https://jexy-kynner.github.io/&lt;/a&gt;&lt;br /&gt;
- 文字：废话&lt;a href=&#34;https://jexy-kynner.github.io/archives/&#34;&gt; https://jexy-kynner.github.io/archives/&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;列表测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列表测试&#34;&gt;#&lt;/a&gt; 列表测试&lt;/h4&gt;
-&lt;p&gt;无序&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;g&lt;/li&gt;
-&lt;li&gt;x&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;j
-&lt;ul&gt;
-&lt;li&gt;分级 1&lt;/li&gt;
-&lt;li&gt;分级 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有序&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;part a&lt;/li&gt;
-&lt;li&gt;part b&lt;/li&gt;
-&lt;li&gt;part 3
-&lt;ol&gt;
-&lt;li&gt;分级 1&lt;/li&gt;
-&lt;li&gt;分级 2&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;插图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插图&#34;&gt;#&lt;/a&gt; 插图&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;/images/1.jpg&#34; alt=&#34;Lena&#34; /&gt;&lt;br /&gt;
-&lt;s&gt; 格式：！&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/s&gt;&lt;/p&gt;
-&lt;h2 id=&#34;表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表&#34;&gt;#&lt;/a&gt; 表&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;学号&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;姓名&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;性别&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;年龄&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;默认左对齐&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;左&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;居中&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;右&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用&#34;&gt;#&lt;/a&gt; 引用&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用 1？&lt;br /&gt;
-引用 2？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用 3？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码块&#34;&gt;#&lt;/a&gt; 代码块&lt;/h3&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;成功啦成功啦&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   代码块内容&lt;span class=&#34;token number&#34;&gt;1111&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   代码块内容&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;文字特效&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字特效&#34;&gt;#&lt;/a&gt; 文字特效&lt;/h3&gt;
-&lt;p&gt;红框&lt;br /&gt;
-&lt;span class=&#34;kbd red&#34;&gt; 12333&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;kbd green&#34;&gt;45678&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;rainbow&#34;&gt;1234567&lt;/span&gt;&lt;br /&gt;
- 快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;br /&gt;
-&lt;mark&gt; 荧光高亮&lt;/mark&gt;&lt;br /&gt;
- 2&lt;sup&gt;3 次方&lt;/sup&gt;&lt;/p&gt;
-&lt;h3 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt; 鼠标滑过显示内容&lt;br /&gt;
-&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;模糊模糊模糊模糊模糊模糊&lt;/span&gt;  选中文字显示内容&lt;/p&gt;
-&lt;h3 id=&#34;折叠文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折叠文字&#34;&gt;#&lt;/a&gt; 折叠文字&lt;/h3&gt;
-&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;段落是绿色的&lt;/summary&gt;&lt;div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片1&#34;&gt;
-&lt;p&gt;冰淇淋&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片2&#34;&gt;
-&lt;p&gt;墨绿色&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/details&gt;
-&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;蓝色&lt;/summary&gt;&lt;div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;卡片 1&#34;&gt;
-&lt;p&gt;这里是卡片 1 的内容&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;卡片 2&#34;&gt;
-&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/details&gt;
-&lt;h3 id=&#34;表情&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表情&#34;&gt;#&lt;/a&gt; 表情&lt;/h3&gt;
-&lt;p&gt;🎶&lt;br /&gt;
-😅&lt;br /&gt;
-😘&lt;br /&gt;
-💍&lt;/p&gt;
-&lt;h3 id=&#34;待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#待办事项&#34;&gt;#&lt;/a&gt; 待办事项&lt;/h3&gt;
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 这是一个小叉叉&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 这是一个红色勾勾&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;提醒块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提醒块&#34;&gt;#&lt;/a&gt; 提醒块&lt;/h3&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;基本&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;警告&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note success no-icon&#34;&gt;
-&lt;p&gt;危险危险&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;标签块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签块&#34;&gt;#&lt;/a&gt; 标签块&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
-        <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
-        <updated>2024-05-09T16:39:16.000Z</updated>
-    </entry>
-    <entry>
         <id>http://jexy-kynner.github.io/2024/05/10/html%E5%AD%A6%E4%B9%A0/</id>
         <title>楔子</title>
         <link rel="alternate" href="http://jexy-kynner.github.io/2024/05/10/html%E5%AD%A6%E4%B9%A0/"/>
@@ -710,6 +566,150 @@ div:hover&amp;#123;
 &amp;#125;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&amp;lt;/style&amp;gt;&lt;/p&gt;
+</content>
+        <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
+        <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
+        <updated>2024-05-09T16:39:16.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/</id>
+        <title>楔子</title>
+        <link rel="alternate" href="http://jexy-kynner.github.io/2024/05/10/%E6%A5%94%E5%AD%90/"/>
+        <content type="html">&lt;h1 id=&#34;测试markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试markdown&#34;&gt;#&lt;/a&gt; 测试 markdown&lt;/h1&gt;
+&lt;h2 id=&#34;唠嗑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#唠嗑&#34;&gt;#&lt;/a&gt; 唠嗑&lt;/h2&gt;
+&lt;p&gt;历时 2 天终于！！！搭建好博客，把主题美化好。&lt;br /&gt;
+最后我竟然挑了很多二次元背景图（）&lt;br /&gt;
+&lt;s&gt;哦，界面的音乐还是别人的，等有时间再慢慢调吧&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;之前用的是酷狗，but 博主用的是网易云 555&lt;br /&gt;
+ 好在一番操作音乐导入成功！&lt;br /&gt;
+&lt;s&gt;注：搜索功能还没配太好，可以点击 but 搜不到&lt;/s&gt;&lt;br /&gt;
+&lt;s&gt;我也不知道是什么原因，不想调了，估计也没什么人搜索 ()&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;耶耶耶！！搜索功能它好啦！！&lt;br /&gt;
+搭建过程不少辛酸事（U ´ᴥ` U）&lt;br /&gt;
+总在快成功的时候删除所有文件从头开始...&lt;br /&gt;
+ 一想到以后每周都要写 blog.&lt;br /&gt;
+ 还不太熟练 markdown，过来练练。&lt;/p&gt;
+&lt;h1 id=&#34;一级标题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一级标题&#34;&gt;#&lt;/a&gt; 一级标题&lt;/h1&gt;
+&lt;h2 id=&#34;二级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二级&#34;&gt;#&lt;/a&gt; 二级&lt;/h2&gt;
+&lt;h3 id=&#34;三级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三级&#34;&gt;#&lt;/a&gt; 三级&lt;/h3&gt;
+&lt;p&gt;哦，天哪，# 后和 - * + 要空格！！&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;斜体&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;粗&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;粗斜&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;s&gt;删除线&lt;/s&gt;&lt;/p&gt;
+&lt;h4 id=&#34;链接测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接测试&#34;&gt;#&lt;/a&gt; 链接测试&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vSmV4eQ==&#34;&gt;我的博客园&lt;/span&gt;&lt;br /&gt;
+ [博客][1][2]&lt;br /&gt;
+[1]:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vSmV4eQ==&#34;&gt;https://www.cnblogs.com/Jexy&lt;/span&gt;&lt;br /&gt;
+[2]:&lt;a href=&#34;https://jexy-kynner.github.io/&#34;&gt;https://jexy-kynner.github.io/&lt;/a&gt;&lt;br /&gt;
+ 文字：废话&lt;a href=&#34;https://jexy-kynner.github.io/archives/&#34;&gt; https://jexy-kynner.github.io/archives/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;列表测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列表测试&#34;&gt;#&lt;/a&gt; 列表测试&lt;/h4&gt;
+&lt;p&gt;无序&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;g&lt;/li&gt;
+&lt;li&gt;x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;j
+&lt;ul&gt;
+&lt;li&gt;分级 1&lt;/li&gt;
+&lt;li&gt;分级 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有序&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;part a&lt;/li&gt;
+&lt;li&gt;part b&lt;/li&gt;
+&lt;li&gt;part 3
+&lt;ol&gt;
+&lt;li&gt;分级 1&lt;/li&gt;
+&lt;li&gt;分级 2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;插图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插图&#34;&gt;#&lt;/a&gt; 插图&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;/images/1.jpg&#34; alt=&#34;Lena&#34; /&gt;&lt;br /&gt;
+&lt;s&gt; 格式：！&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表&#34;&gt;#&lt;/a&gt; 表&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;学号&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;姓名&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;性别&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;年龄&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;默认左对齐&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;居中&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用&#34;&gt;#&lt;/a&gt; 引用&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用 1？&lt;br /&gt;
+引用 2？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用 3？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码块&#34;&gt;#&lt;/a&gt; 代码块&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;成功啦成功啦&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   代码块内容&lt;span class=&#34;token number&#34;&gt;1111&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   代码块内容&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;文字特效&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字特效&#34;&gt;#&lt;/a&gt; 文字特效&lt;/h3&gt;
+&lt;p&gt;红框&lt;br /&gt;
+&lt;span class=&#34;kbd red&#34;&gt; 12333&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;kbd green&#34;&gt;45678&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;rainbow&#34;&gt;1234567&lt;/span&gt;&lt;br /&gt;
+ 快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;br /&gt;
+&lt;mark&gt; 荧光高亮&lt;/mark&gt;&lt;br /&gt;
+ 2&lt;sup&gt;3 次方&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt; 鼠标滑过显示内容&lt;br /&gt;
+&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;模糊模糊模糊模糊模糊模糊&lt;/span&gt;  选中文字显示内容&lt;/p&gt;
+&lt;h3 id=&#34;折叠文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折叠文字&#34;&gt;#&lt;/a&gt; 折叠文字&lt;/h3&gt;
+&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;段落是绿色的&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片1&#34;&gt;
+&lt;p&gt;冰淇淋&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片2&#34;&gt;
+&lt;p&gt;墨绿色&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;蓝色&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;卡片 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;卡片 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h3 id=&#34;表情&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表情&#34;&gt;#&lt;/a&gt; 表情&lt;/h3&gt;
+&lt;p&gt;🎶&lt;br /&gt;
+😅&lt;br /&gt;
+😘&lt;br /&gt;
+💍&lt;/p&gt;
+&lt;h3 id=&#34;待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#待办事项&#34;&gt;#&lt;/a&gt; 待办事项&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 这是一个小叉叉&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 这是一个红色勾勾&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;提醒块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提醒块&#34;&gt;#&lt;/a&gt; 提醒块&lt;/h3&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;基本&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;警告&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note success no-icon&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;标签块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签块&#34;&gt;#&lt;/a&gt; 标签块&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="杂记" scheme="http://jexy-kynner.github.io/categories/%E6%9D%82%E8%AE%B0/" />
         <category term="随笔" scheme="http://jexy-kynner.github.io/tags/%E9%9A%8F%E7%AC%94/" />
